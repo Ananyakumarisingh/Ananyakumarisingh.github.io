@@ -37,7 +37,6 @@
 
 /* for small screen, laptops */
 @media screen and (max-width: 1040px) {
-
     .project-description {
         font-size: var(--smaller-font);
     }
@@ -54,10 +53,10 @@
     .about_left>p {
         font-size: calc(var(--smaller-font)+10px);
     }
-
+    /* 
     .home_container>p {
-        font-size: 4vw;
-    }
+         font-size: 4vw;
+    } */
 
     .contact_form>span, .contact-info-container>span {
         font-size: var(--medium-font);
