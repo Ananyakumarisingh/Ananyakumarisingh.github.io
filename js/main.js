@@ -68,3 +68,9 @@ document.getElementById("resume-button-1").onclick = () => {
 // document.getElementById("resume-button-2").onclick = () => {
 //     location.assign("https://drive.google.com/file/d/1Q8h7n7NZzntb8nKXSRGrFnjtI7HxaKXs/view?usp=share_link");
 // }
+
+
+// ! LOGO
+document.getElementById("nav_logo").addEventListener("click", () => {
+    window.location.href = "./index.html";
+});
